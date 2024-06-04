@@ -1,3 +1,6 @@
 [submodule "PCB/libs/kbd"]
 	path = PCB/libs/kbd
 	url = https://github.com/foostan/kbd.git
+[submodule "PCB/libs/kleeb"]
+	path = PCB/libs/kleeb
+	url = https://github.com/crides/kleeb.git
