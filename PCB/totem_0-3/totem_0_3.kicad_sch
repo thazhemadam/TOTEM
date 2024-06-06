@@ -2926,102 +2926,6 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 34.29 105.41)
@@ -3402,10 +3306,6 @@
 		(uuid "1a0646dd-646c-41fd-b992-77ac7ccd8d7e")
 	)
 	(no_connect
-		(at 257.81 201.93)
-		(uuid "3080a2d0-2042-402e-b239-4d4ab8270887")
-	)
-	(no_connect
 		(at 21.59 207.01)
 		(uuid "357b8814-d685-4ca7-99f1-3fe59ea1aff0")
 	)
@@ -3516,10 +3416,6 @@
 	(no_connect
 		(at 41.91 191.77)
 		(uuid "974076d6-49cb-4244-8f93-00bb33732bb2")
-	)
-	(no_connect
-		(at 257.81 189.23)
-		(uuid "99cd4ad6-0760-4ffb-883a-4ee7230bb53e")
 	)
 	(no_connect
 		(at 78.74 201.93)
@@ -5536,28 +5432,6 @@
 			)
 		)
 	)
-	(global_label "RESET"
-		(shape input)
-		(at 270.51 191.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "09850734-f530-4c0f-9a57-d9e2e80c22e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5067 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RX_L"
 		(shape input)
 		(at 124.46 48.26 0)
@@ -5888,6 +5762,28 @@
 			)
 		)
 	)
+	(global_label "TP_DATA_R"
+		(shape input)
+		(at 255.27 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d163c16-61b2-4308-aa07-34886c52d9ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.4272 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC_L"
 		(shape input)
 		(at 124.46 40.64 0)
@@ -5976,9 +5872,9 @@
 			)
 		)
 	)
-	(global_label "TP_DATA_R"
+	(global_label "GND_R"
 		(shape input)
-		(at 270.51 189.23 0)
+		(at 257.81 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5986,9 +5882,9 @@
 			)
 			(justify left)
 		)
-		(uuid "50886080-125f-4b3f-a373-e82a731e2dcb")
+		(uuid "544be013-9872-422a-8333-c596a0c22a42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.3528 189.23 0)
+			(at 266.9033 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,28 +6193,6 @@
 		(uuid "7501a8e5-84f1-48bf-822d-81ee15bc4b66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 313.349 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_RIGHT"
-		(shape input)
-		(at 270.51 196.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77b809d7-e124-4d63-a020-854206d02098")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.7402 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,6 +6523,28 @@
 		(uuid "97c4f5dd-2c60-471b-a4a0-f5d9cf695a1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.8983 55.8006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TP_DATA_R"
+		(shape input)
+		(at 257.81 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98ea97ee-53e3-4438-af46-8835f8788fc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.6528 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,28 +6906,6 @@
 			)
 		)
 	)
-	(global_label "BTN_LEFT"
-		(shape input)
-		(at 270.51 199.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c52dfda7-3500-4a84-ae2c-265b7d956b82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.5306 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT_L"
 		(shape input)
 		(at 130.81 152.4 0)
@@ -7072,28 +6946,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP_CLK_R"
-		(shape input)
-		(at 270.51 201.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdfdb987-a96e-47d8-84a8-df0213fecab1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.5061 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7252,6 +7104,28 @@
 			)
 		)
 	)
+	(global_label "TP_CLK_R"
+		(shape input)
+		(at 257.81 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e58e36a0-7c90-42c0-8da8-97a579aacbda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.8061 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW2_R"
 		(shape input)
 		(at 302.26 146.05 0)
@@ -7384,24 +7258,24 @@
 			)
 		)
 	)
-	(global_label "BTN_MID"
+	(global_label "TP_CLK_R"
 		(shape input)
-		(at 270.51 194.31 0)
+		(at 255.27 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f601e31c-d3eb-4adc-88c8-e2d40491efb9")
+		(uuid "f0ba0b4d-4ae3-4b0d-a492-b81f6cda197f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.6235 194.31 0)
+			(at 243.2739 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13759,73 +13633,6 @@
 			(project "totem_0_3"
 				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 204.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1700d86-2a59-4555-acba-11fdc7f8781a")
-		(property "Reference" "#PWR01"
-			(at 264.16 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.366 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd58599d-4858-4ca4-9716-360775dba492")
-		)
-		(instances
-			(project "totem_0_3"
-				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
