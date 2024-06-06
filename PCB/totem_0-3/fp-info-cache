@@ -1,4 +1,4 @@
-24199583305580364
+24197865831426858
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91440,13 +91440,6 @@ BatteryPad
 0
 1
 1
-TOTEMlib
-Connector_THT_1x3_2.54
-
-
-0
-3
-3
 TOTEMlib
 Diode_SOD123
 Diode, DO-41, SOD81, Horizontal, RM 10mm,
