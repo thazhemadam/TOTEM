@@ -691,7 +691,6 @@
 		)
 	)
 	(model "${KIPRJMOD}/TOTEM3D/Kailh_switch_PG1350_optional.step"
-		(hide yes)
 		(offset
 			(xyz 0 0 2)
 		)
@@ -699,7 +698,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -180)
+			(xyz 0 0 0)
 		)
 	)
 	(model "${KIPRJMOD}/TOTEM3D/Kailh_socket_PG1350_optional.STEP"
