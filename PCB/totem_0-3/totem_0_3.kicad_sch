@@ -3202,10 +3202,6 @@
 		(uuid "6a9171bf-1129-4f13-ba59-c8308abb87ae")
 	)
 	(no_connect
-		(at 257.81 207.01)
-		(uuid "6aaea3e5-fa73-48fa-9022-50477d970c20")
-	)
-	(no_connect
 		(at 257.81 214.63)
 		(uuid "72a57540-04ae-45f7-8d3a-2249a2a95869")
 	)
@@ -6073,6 +6069,28 @@
 		(uuid "8b1243f7-78e3-40b0-b730-007e9a4bd5b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.7393 51.9906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_R"
+		(shape input)
+		(at 257.81 207.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b14bb87-3d61-477b-89b7-07f46b7c20eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.0893 206.9306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
