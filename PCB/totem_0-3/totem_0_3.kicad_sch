@@ -6768,6 +6768,28 @@
 			)
 		)
 	)
+	(global_label "GND_R"
+		(shape input)
+		(at 204.47 232.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b068719a-c2cb-408a-b589-6a0f928ba6fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 241.5033 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL4_R"
 		(shape input)
 		(at 248.92 97.79 90)
@@ -11899,72 +11921,6 @@
 			(project "totem_0_3"
 				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
 					(reference "SWL13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92bca0ee-f45d-4800-8edf-903b93134a66")
-		(property "Reference" "#PWR05"
-			(at 204.47 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e924295-56d5-4ce3-aa2b-f72a7ab8dc6f")
-		)
-		(instances
-			(project "totem_0_3"
-				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
