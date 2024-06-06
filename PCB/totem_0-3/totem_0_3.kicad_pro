@@ -493,7 +493,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../totem_0_2.step",
+      "step": "../totem.step",
       "svg": "",
       "vrml": ""
     },
