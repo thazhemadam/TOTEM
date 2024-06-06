@@ -176,6 +176,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -3310,6 +3392,19 @@
 		)
 		(uuid "ff3277aa-78d3-44b1-b3b9-7a4b9e177ba3")
 	)
+	(text "T R A C K P O I N T\nM O U N T I N G   H O L E"
+		(exclude_from_sim no)
+		(at 198.882 186.944 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d8c03f9-5ac5-45c1-9fc8-921d580342d3")
+	)
 	(text "M I C R O \nC O N T R O L L E R"
 		(exclude_from_sim no)
 		(at 293.37 34.29 0)
@@ -3398,6 +3493,19 @@
 			(justify left bottom)
 		)
 		(uuid "6b40e4bc-bae2-4f14-bc8b-354727510bc3")
+	)
+	(text "T R A C K P O I N T\nM O U N T I N G   H O L E"
+		(exclude_from_sim no)
+		(at 33.782 186.944 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d216913-b8e2-488c-b6fb-3dd4fe8ba5b5")
 	)
 	(text "S W I T C H\nM A T R I X"
 		(exclude_from_sim no)
@@ -6300,6 +6408,70 @@
 			(project "totem_0_3"
 				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
 					(reference "SWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 36.83 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "352c3892-e8c3-4841-9276-d2d58cae5f53")
+		(property "Reference" "H1"
+			(at 39.37 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 39.37 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TOTEMlib:TPSensorModule"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -10977,6 +11149,70 @@
 			(project "totem_0_3"
 				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
 					(reference "DR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 201.93 193.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c43e3e72-7cc1-4fe8-aad0-f8e224e1e693")
+		(property "Reference" "H2"
+			(at 204.47 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 204.47 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TOTEMlib:TPSensorModule"
+			(at 201.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 201.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "totem_0_3"
+				(path "/4d1e609f-5432-4afb-8ee7-7d2d9aaaee48"
+					(reference "H2")
 					(unit 1)
 				)
 			)
