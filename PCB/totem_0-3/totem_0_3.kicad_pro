@@ -59,25 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|145704688|130262614|9d860e57-e2e2-4015-b2b3-2413e9252557|be5f9858-ce19-432e-a61f-a7f7590075f0",
-        "copper_edge_clearance|224002000|49655000|6d313257-9c02-43d4-939a-de751af4ca28|a5b9ecc9-8d16-4202-9927-22683c617860",
-        "copper_edge_clearance|258747860|55586800|5570a053-b42e-4e83-b992-5a9a73766579|e18b0156-b8a3-4413-8122-de5c21f96c31",
-        "copper_edge_clearance|261160860|55586800|48189726-1a84-4aa8-a069-4d0f0dbdbd9d|72f02d4c-2140-4610-bdc3-c802e5243964",
-        "copper_edge_clearance|264462860|60438200|8a6e171c-ffdb-4639-9a1c-b7377361ef84|170c61a5-46b7-4c50-928c-d4580bd7d106",
-        "copper_edge_clearance|265148660|58076000|1081455d-3b2d-4383-9912-94e4fcd0f1f7|7e82010f-fc0d-4599-9128-7b5544ef375b",
-        "copper_edge_clearance|266825060|58076000|1081455d-3b2d-4383-9912-94e4fcd0f1f7|55a77589-8583-4f02-81f8-827a2fd175ec",
-        "copper_edge_clearance|266825060|61124000|53d33c93-8134-4fed-ab58-21472938644e|2f25df25-89e1-4472-9fde-b5e2b249aa69",
-        "copper_edge_clearance|278243296|108283842|42f292a6-5bda-4394-9820-ffb9b90da5a3|c6486396-5881-40e2-8e62-668c2bc6c1bd",
-        "copper_edge_clearance|32374000|58761800|cb4c6325-1d27-4c26-8084-a3005f79a76a|60e791fc-be31-4558-ba55-b5d4c54aa19a",
-        "copper_edge_clearance|32374000|60438200|cb4c6325-1d27-4c26-8084-a3005f79a76a|d96b7bdd-2359-4520-8978-93576a3a5580",
-        "copper_edge_clearance|34736200|58076000|0e450d28-6261-4261-9fe6-b59f9693a945|dc1a3303-ebd2-4be7-965e-6fc512aceee0",
-        "copper_edge_clearance|34736200|61124000|da15a863-1db9-4560-8cef-4669945ed230|55374e92-fc64-41a1-9ff9-ecc2aa76fd14",
-        "copper_edge_clearance|38724000|63613200|b79011f2-d9ab-4488-b3ca-c5196ac23398|9f4e728f-2cbe-4e1f-acb8-2d3694fb1afb",
-        "copper_edge_clearance|40451200|64299000|fdd235be-2fda-483c-a800-0a2bc50dc9b3|c0bb548b-2b7c-4b9d-af43-b79e94eefd03",
-        "copper_edge_clearance|94396546|49655000|1e9c6339-6abe-4039-b1c3-96b9a1e192ad|e0e9de40-134d-47de-9799-067c14a7388b",
-        "courtyards_overlap|241539260|119176361|8dbecef0-908a-4482-8510-25fcaca89781|755db65a-f7c6-42a2-9c83-0f6f81447692"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
